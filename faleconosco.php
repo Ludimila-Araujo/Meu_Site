@@ -9,7 +9,7 @@
 <body>
 <div class="secao secao-destaque" id="faleconosco">
     <h2>Formulário de Contato</h2>
-    <form>
+    <form action="?pg=envia_msg" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
 

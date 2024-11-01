@@ -21,6 +21,8 @@ if (isset($_GET['pg'])) {
         include_once 'nossosprodutos.php';
     } elseif ($pg == 'faleconosco') {
         include_once 'faleconosco.php';
+    } elseif ($pg == 'envia_msg') {
+        include_once 'envia_msg.php';
     } else {
         echo "<h2>Página não encontrada.</h2>";
     }
